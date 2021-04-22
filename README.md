@@ -2,8 +2,11 @@
 
 # CSS
 <ol>
-  <li>Eye friendly colors</li>
-  <li>Well sized containers</li>
+  <li>Containers:</li>
+    <ol>
+      <li>Eye friendly colors<</li>
+      <li>Correct sizes</li>
+    </ol>
   <li>Typography:</li>
   <ol>
     <li>Well chosen font type and size for headers</li>
