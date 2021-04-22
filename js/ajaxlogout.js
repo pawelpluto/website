@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$("#btn-logout").on('click', function() {
 		$.ajax(
 				{
-					url: 'logout.php',
+					url: '/php/logout.php',
 					method: 'POST',
 					data: {
 					},
