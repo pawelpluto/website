@@ -28,7 +28,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">	
 	</head>
 	
-	<body style="background-color:rgba(0, 0, 0, 0.5);">		
+	<body style>
 		<div class="container mt-5 p-0">
 			<div class="row col-12 m-auto">
 				<!-- LEFT CONTAINERS  -->
