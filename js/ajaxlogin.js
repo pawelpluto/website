@@ -10,7 +10,7 @@ $(document).ready(function() {
 		else {
 			$.ajax(
 				{
-					url: 'login.php',
+					url: '/php/login.php',
 					method: 'POST',
 					data: {
 						login: 1,
