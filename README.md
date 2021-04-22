@@ -7,6 +7,7 @@
        <li></li>
      </ol>
   </ol>
+  
 # CSS - goals
 <ol>
   <li>Containers:</li>
