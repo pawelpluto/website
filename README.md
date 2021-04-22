@@ -1,10 +1,15 @@
 # HTML - goals
   <ol> 
     <li>Decide the content included</li>
-     <ol>
-       <li>Latest News</li>
-       <li>Chat from in-game channels</li>
-       <li></li>
+      <ol>
+        <li>Latest News</li>
+        <li>Chat from in-game channels</li>
+        <li>Server description</li>
+        <li>Account manager:</li>
+          <ol>
+            <li>General info</li>
+            <li>Characters list</li>
+          </ol>
      </ol>
   </ol>
   
