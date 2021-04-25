@@ -35,19 +35,26 @@
 				<div class="col-12 col-left col-md-3 px-3 mb-md-3">
 					<!-- LOGIN -->	
 					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 border rounded border-primary p-2 minimized" id="login-minimized">
-							<i class="material-icons icon icon-folded" onclick="folde('login')">
-								add
+					<div class="col col-info mb-3 p-2 minimized" id="login-minimized">
+							
+							<i class="icon icon-folded icon-minimized" onclick="folde('login')">
 							</i>
-							<h1 class="folded block-title mt-1 text-center">Login</h1>
+							<div class="col col-10 block-title text-center mx-auto">
+								<h1 class="folded block-title mt-1 text-center">LOGIN</h1>
+							</div>
 					</div>
 					
 					<!-- MAXIMIZED -->
 					<div class="col col-box p-2 mb-3" id="login-maximized">
-						<i class="material-icons icon" onclick="folde('login')">remove</i>
-						<h1 class="h4 block-title mt-1 mb-2 text-center" id="loginHeader">Login</h1>
+								<i class="icon icon-maximized" onclick="folde('login')"></i>
+							<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
+								<h1 class="h4 text-center p-0" id="loginHeader">LOGIN</h1>
+							</div>
+						
+						
+						
 						<p class="h4 block-title mt-3 mb-2 text-center" id="welcomeMsg"></p>
-						<hr class="d-none d-sm-block w-25 mx-auto mt-0">
+						
 						
 						<div class="container mb-3" id="loggedin-content">
 							<div class="row">
@@ -98,18 +105,19 @@
 					
 					<!-- ROOKGAARD  -->
 					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 border rounded border-primary p-2 minimized" id="rookgaard-minimized">
-							<i class="material-icons icon icon-folded" onclick="folde('rookgaard')">
-								add
+					<div class="col col-info mb-3 p-2 minimized" id="rookgaard-minimized">
+							
+							<i class="icon icon-folded icon-minimized" onclick="folde('rookgaard')">
 							</i>
 							<h1 class="folded block-title mt-1 text-center">Rookgaard</h1>
 					</div>
 					
 					<!-- MAXIMIZED -->
 					<div class="col col-box p-2 mb-3" id="rookgaard-maximized">
-						<i class="material-icons icon" onclick="folde('rookgaard')">remove</i>
-						<h1 class="h4 block-title mt-1 mb-2 text-center">Rookgaard</h1>
-						<hr class="d-none d-sm-block w-50 mx-auto mt-0">
+						<i class="icon icon-maximized" onclick="folde('rookgaard')"></i>
+						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
+						<h1 class="h4 text-center p-0">Rookgaard</h1>
+						</div>
 							<div class="p-2">
 								<div class="col col-12 my-0">
 									<h1 class="h5 block-title mt-2 mb-2 text-center">POWERGAMERS</h1>
@@ -134,19 +142,21 @@
 					<!-- LIVE CHAT -->
 					
 					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 border rounded border-primary p-2 minimized" id="livechat-minimized">
-							<i class="material-icons icon icon-folded" onclick="folde('livechat')">
-								add
+					<div class="col col-info mb-3 p-2 minimized" id="livechat-minimized">
+							<i class="icon icon-folded icon-minimized" onclick="folde('livechat')">
 							</i>
 							<h1 class="folded block-title mt-1 text-center">Live Chat</h1>
 					</div>
 					
 					<!-- MAXIMIZED -->
-					<div class="col col-livechat col-md-12 p-2 mb-3 border rounded border-info" id="livechat-maximized">
-						<i class="material-icons icon" onclick="folde('livechat')">remove</i>
-						<h1 class="h4 block-title my-1 text-center">Live chat</h1>
-						<hr class="d-none d-sm-block w-25 mx-auto mt-0">
-					
+					<div class="col col-livechat col-md-12 p-2 mb-3" id="livechat-maximized">
+						<i class="icon icon-maximized" onclick="folde('livechat')"></i>
+						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
+						<h1 class="h4 text-center p-0">Live chat</h1>
+						</div>
+						<div class="text-center my-3">
+						<img height=150 width=150 src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg" class="border border-primary"></img>
+						</div>
 						<div class="col col-10 live-chat offset-1 mb-3 ">
 							<ul class="nav nav-tabs ">
 								<li class="nav-link border border-primary active" id="chat-home"><a class="" data-toggle="tab" href="#home-inner">Game chat</a></li>
@@ -190,21 +200,19 @@
 					</div>
 					<!-- NEW ACCOUNT TAB -->
 					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 border rounded border-primary p-2 minimized" id="newaccount-minimized">
-							<i class="material-icons icon icon-folded" onclick="folde('newaccount')">
-								add
+					<div class="col col-info mb-3 p-2 minimized" id="newaccount-minimized">
+							<i class="icon icon-folded icon-minimized" onclick="folde('newaccount')">
 							</i>
 							<h1 class="folded block-title mt-1 text-center">New Account</h1>
 					</div>
 					<!-- MAXIMIZED -->
-					<div class="col col-newaccount col-md-12 p-2 mb-3 border rounded border-info" id="newaccount-maximized">
+					<div class="col col-newaccount col-md-12 p-2 mb-3" id="newaccount-maximized">
 						
-						<i class="material-icons icon" onclick="foldeNewAccount()">
-							remove
+						<i class="icon icon-maximized" onclick="foldeNewAccount()">
+
 						</i>
-						<h1 class="h4 block-title mt-1 mb-2 text-center">New Account</h1>
-						<div>
-							<hr class="d-none d-sm-block w-25 mx-auto mt-0">
+						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
+						<h1 class="h4 text-center p-0">New Account</h1>
 						</div>
 						
 						<div class="row m-3">
@@ -225,25 +233,28 @@
 						<div class="col-1row">
 							By creating new account, you agree to the <a href="#" data-toggle="modal" data-target="#rulesWindow"><b>server rules</b></a>. Not following them may result in temporary/permanent account or character suspension.
 						</div>
+						
 						</div>
+						
+						
 					</div>
 					
 					
 					<!-- ACCOUNT -->
 					
 					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 border rounded border-primary p-2 minimized" id="account-minimized">
-							<i class="material-icons icon icon-folded" onclick="folde('account')">
-								add
+					<div class="col col-info mb-3 p-2 minimized" id="account-minimized">
+							<i class="icon icon-folded icon-minimized" onclick="folde('account')">
 							</i>
 							<h1 class="folded block-title mt-1 text-center">Account Details</h1>
 					</div>
 					
 					<!-- MAXIMIZED -->
-					<div class="col col-md-12 mb-3 col-account border rounded border-primary p-2" id="account-maximized">
-						<i class="material-icons icon" onclick="folde('account')">remove</i>
+					<div class="col col-md-12 mb-3 col-account p-2" id="account-maximized">
+						<i class="icon icon-maximized" onclick="folde('account')"></i>
+						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
 						<h1 class="h4 block-title mt-3 mb-2 text-center">Account Details</h1>
-						<hr class="d-none d-sm-block w-25 mx-auto mt-0">
+						</div>
 				
 					<!-- PREMIUM -->
 					<div class="col mb-2 mb-md-3 server-info-box my-1 col-md-11 m-auto p-2">
@@ -344,20 +355,20 @@
 					
 					<!-- INFO -->
 					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 border rounded border-primary p-2 minimized" id="info-minimized">
-							<i class="material-icons icon icon-folded" onclick="foldeInfo()">
-								add
+					<div class="col col-info mb-3 p-2 minimized" id="info-minimized">
+							<i class="icon icon-folded icon-minimized" onclick="foldeInfo()">
 							</i>
 							<h1 class="folded block-title mt-1 text-center">Server Info</h1>
 					</div>
 					
-					<div class="col col-md-12 col-info mb-3 border rounded border-primary p-2" id="info-maximized">
-						<i class="material-icons icon" onclick="foldeInfo()">
-							remove
+					<!-- MAXIMIZED -->
+					<div class="col col-md-12 col-info mb-3 p-2" id="info-maximized">
+						<i class="icon icon-maximized" onclick="foldeInfo()">
 						</i>
 						
-						<h1 class="h4 block-title mt-1 mb-2 text-center">Server Info</h1>
-						<hr class="d-none d-sm-block w-25 mx-auto mt-0">
+						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
+						<h1 class="h4 text-center p-0">Server Info</h1>
+						</div>
 						
 						<div class="row col-10 offset-1 mb-3">
 							<div class="mx-3 mb-2 mb-md-0 col-md server-info-box my-1">
@@ -380,17 +391,18 @@
 					
 					<!-- LATEST NEWS -->
 					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 border rounded border-primary p-2 minimized" id="news-minimized">
-							<i class="material-icons icon icon-folded" onclick="folde('news')">
-								add
+					<div class="col col-info mb-3 p-2 minimized" id="news-minimized">
+							<i class="icon icon-folded icon-minimized" onclick="folde('news')">
 							</i>
 							<h1 class="folded block-title mt-1 text-center">Latest News</h1>
 					</div>
 					
-					<div class="col col-main col-md-12 border rounded border-primary p-2 mb-0" id="news-maximized">
-						<i class="material-icons icon" onclick="folde('news')">remove</i>
-						<h1 class="h4 block-title my-1 text-center">Latest News</h1>
-						<hr class="d-none d-sm-block w-25 mx-auto mt-0">
+					<!-- MAXIMIZED -->
+					<div class="col col-md-12 col-main mb-3 p-2" id="news-maximized">
+						<i class="icon icon-maximized" onclick="folde('news')"></i>
+						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
+						<h1 class="h4 text-center p-0	">Latest News</h1>
+						</div>
 						
 						<div class="col-md-12">
 							<div class="date d-block text-center mx-3">
@@ -434,29 +446,32 @@
 					<!-- SOCIAL BOX  -->
 					
 					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 border rounded border-primary p-2 minimized" id="social-minimized">
-							<i class="material-icons icon icon-folded" onclick="folde('social')">
-								add
+					<div class="col col-info mb-3 p-2 minimized" id="social-minimized">
+							<i class="icon icon-folded icon-minimized" onclick="folde('social')">
 							</i>
 							<h1 class="folded block-title mt-1 text-center">Social</h1>
 					</div>
+					<!-- MAXIMIZED --->
 					<div class="col-12 col-box p-2 mb-3" id="social-maximized">
-						<i class="material-icons icon" onclick="folde('social')">remove</i>
-						<h1 class="h4 block-title mt-1 mb-2 text-center">Social</h1>
-						<hr class="d-none d-sm-block w-25 mx-auto mt-0">
+						<i class="icon icon-maximized" onclick="folde('social')"></i>
+						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
+						<h1 class="h4 text-center p-0">Social</h1>
+						</div>
+						<!-- <hr class="d-none d-sm-block w-25 mx-auto mt-0"> -->
 					</div>
 					
 					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 border rounded border-primary p-2 minimized" id="mainland-minimized">
-							<i class="material-icons icon icon-folded" onclick="folde('mainland')">
-								add
+					<div class="col col-info mb-3 p-2 minimized" id="mainland-minimized">
+							<i class="icon icon-folded icon-minimized" onclick="folde('mainland')">
 							</i>
 							<h1 class="folded block-title mt-1 text-center">Mainland</h1>
 					</div>
+					<!-- MAXIMIZED -->
 					<div class="col-12 col-box p-2" id="mainland-maximized">
-						<i class="material-icons icon" onclick="folde('mainland')">remove</i>
-						<h1 class="h4 block-title mt-1 mb-2 text-center">Mainland</h1>
-						<hr class="d-none d-sm-block w-50 mx-auto mt-0">
+						<i class="icon icon-maximized" onclick="folde('mainland')"></i>
+						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
+						<h1 class="h4 text-center p-0">Mainland</h1>
+						</div>
 					</div>
 				</div>
 			
@@ -465,7 +480,68 @@
 			</div>
 		</div>
 
-	
+		<!-- Modal -->
+			<div class="modal fade" id="rulesWindow" tabindex="-1" role="dialog" aria-labelledby="rulesWindowTitle" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title text-center" id="rulesWindowTitle">Server Rules</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="rules modal-body mx-0 p-3">
+					<ol>
+						<li class="mb-1">
+							In augue lorem, sodales vitae pulvinar ut, maximus eu massa. Donec sagittis libero quis semper pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas eu turpis fringilla, blandit turpis dictum, molestie dolor. Mauris dui mi, ultrices bibendum urna eu, rhoncus mollis tellus. Fusce ut ex vel urna varius tristique eget in eros.
+						</li>
+						<li class="mb-1">
+							Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu sodales dui. Nullam purus enim, lacinia vel fringilla at, laoreet sed ex. Fusce porta justo id tellus consequat ullamcorper.
+						</li>
+						<li class="mb-1">
+							Nulla ac congue felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus sem non ornare eleifend. Vivamus erat tellus, pellentesque nec diam ac, volutpat gravida elit. Praesent fermentum, arcu a malesuada convallis, dolor enim interdum ante, a rutrum diam lacus eu lectus.
+						</li>
+						<li class="mb-1">
+							Aenean id elementum justo. Praesent viverra mauris ex, sodales tempus enim condimentum sed. Ut fermentum, leo at ornare efficitur, urna erat rhoncus tellus, eget fermentum lorem sem vel lacus. Ut tempus lacinia est, nec eleifend libero sollicitudin in. Aliquam semper risus eu lorem tempor, eget finibus purus faucibus. Nam eleifend dictum massa.
+						</li>
+						<li class="mb-1">
+							Nullam at est eget lectus auctor pharetra. Fusce quis sapien ultrices, auctor tellus at, egestas arcu. Nullam ornare ipsum ut faucibus cursus. Pellentesque justo arcu, scelerisque in semper in, molestie non enim.
+						</li>
+						<li class="mb-1">
+							In ac lobortis magna. Proin sit amet rutrum ex. Mauris justo ipsum, dictum non massa ut, luctus elementum nulla. Etiam accumsan, magna ornare pretium faucibus, orci sem tristique diam, vel tincidunt quam arcu ac nisl.
+						</li>
+						<li class="mb-1">
+							In cursus nisi id porta ullamcorper. Etiam aliquam tempor metus sit amet fringilla. Sed sagittis urna sed mauris dapibus, ut tempor ex lacinia. Donec urna felis, vestibulum quis tempus vel, finibus non velit.
+						</li>
+						<li class="mb-1">
+							Morbi fringilla tellus lacinia, ultricies ipsum eget, fermentum libero. Donec id diam metus. Curabitur feugiat est non pretium bibendum. Aenean dui nibh, accumsan at vestibulum sit amet, commodo vel est. Aenean sed metus vel mauris pellentesque lacinia eu sit amet lectus.
+						</li>
+						<li class="mb-1">
+							In efficitur tristique ipsum, in convallis augue faucibus ac. Donec in egestas ligula, ac molestie enim. Proin efficitur aliquam molestie. Suspendisse commodo eleifend bibendum. In ullamcorper tellus velit, eget tempus tortor dignissim id. Vivamus ullamcorper est nunc, sit amet rutrum diam feugiat non.
+						</li>
+						<li class="mb-1">
+							Nam maximus sit amet odio eu auctor. Curabitur nisl dolor, accumsan ut mauris a, pulvinar semper elit. Aliquam porta tincidunt faucibus. 
+						</li>
+						<li class="mb-1">
+							Proin dictum neque a condimentum aliquam. Phasellus pharetra leo semper lorem congue, ac vestibulum risus aliquet. Sed a elit pretium, elementum mauris ac, gravida nulla. Etiam finibus ipsum venenatis porta sollicitudin.
+						</li>
+						<li class="mb-1">
+							Sed molestie fringilla accumsan. In nec fringilla ligula, ullamcorper dictum augue. Donec tincidunt felis sit amet quam varius, sed congue sapien tristique. Aliquam blandit ornare arcu in suscipit.
+						</li>
+						<li class="mb-1">
+							Aliquam lacus ex, tempus ut ex a, congue viverra ligula. Nullam nec augue quam. Nullam et tristique neque. Donec vitae convallis eros. Donec fermentum id risus non vulputate. Quisque et dictum ipsum. Donec nec libero eget est pellentesque egestas nec id lectus.
+						</li>
+						<li class="mb-1">
+							Vivamus iaculis eros odio, sit amet mollis libero blandit quis. Suspendisse feugiat leo eget lacus ornare, vitae lacinia lorem tempus. Pellentesque sit amet congue quam. Nulla cursus, turpis pulvinar feugiat ultrices, ante sem ullamcorper ex, id blandit augue leo ut velit.
+					</ol>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
 		<!-- BOOSTRAP SCRIPTS -->
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"
 		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -535,6 +611,8 @@
 		<?PHP
 			makeStyleChangesIfLogged();
 		?>
+		
+	
 	</body>
 	
 	
