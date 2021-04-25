@@ -157,26 +157,20 @@
 						<div class="text-center my-3">
 						<img height=150 width=150 src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg" class="border border-primary"></img>
 						</div>
-						<div class="col col-10 live-chat offset-1 mb-3 ">
-							<ul class="nav nav-tabs ">
-								<li class="nav-link border border-primary active" id="chat-home"><a class="" data-toggle="tab" href="#home-inner">Game chat</a></li>
-								<li class="nav-link border border-secondary" id="chat-trade"><a data-toggle="tab" href="#menu1">Trade</a></li>
-								<li class="nav-link border border-secondary" id="chat-quest"><a data-toggle="tab" href="#menu2">Quests</a></li>
+						<div class="col col-10 live-chat offset-1 mb-3">
+							<ul class="nav p-0 m-0">
+								<li class="p-0 m-0 bg-gamechat-inactive" id="chat-home"><a class="test1" data-toggle="tab" href="#home-inner"></a></li>
+								<li class="p-0 m-0" id="chat-trade"><a data-toggle="tab" href="#menu1"></a></li>
+								<li class="p-0 m-0" id="chat-quest"><a data-toggle="tab" href="#menu2"></a></li>
 							</ul>
 						
-							<div class="tab-content p-2">
+							<div class="tab-content tab-livechat px-1 py-2">
 								<div id="home-inner" class="tab-pane fade show active">
-									<table class="table table-sm table-gamechat col-5 mx-0 p-0 my-0">
+									<table class="table table-sm table-gamechat col-5 mx-0 p-0 my-0 no-spacing">
 									<tbody id="gamechat-inner">
 										
 									</tbody>
 									</table>
-						
-									
-									<?PHP
-									
-									?>
-
 								</div>
 							
 								<div id="menu1" class="tab-pane fade">
@@ -549,61 +543,8 @@
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>
 		
-		<script>
-			
-			$(function(){
-				$('body').on('click', '#chat-trade', function(){
-					$('#chat-home').removeClass('active');
-					$('#chat-quest').removeClass('active');
-					
-					$('#chat-home').removeClass('border-primary');
-					$('#chat-quest').removeClass('border-primary');
-					
-					$('#chat-trade').removeClass('border-secondary');
-					
-					$('#chat-home').addClass('border-secondary');
-					$('#chat-quest').addClass('border-secondary');
-					
-					$(this).closest('#chat-trade').addClass('active');
-					$(this).closest('#chat-trade').addClass('border-primary');
-				
-					
-				});
-				
-				$('body').on('click', '#chat-home', function(){
-					$('#chat-trade').removeClass('active');
-					$('#chat-quest').removeClass('active');
-					
-					$('#chat-trade').removeClass('border-primary');
-					$('#chat-quest').removeClass('border-primary');
-					
-					$('#chat-home').removeClass('border-secondary');
-					
-					$('#chat-trade').addClass('border-secondary');
-					$('#chat-quest').addClass('border-secondary');
-					
-					$(this).closest('#chat-home').addClass('active');
-					$(this).closest('#chat-home').addClass('border-primary');
-				});
-				
-				$('body').on('click', '#chat-quest', function(){
-					$('#chat-trade').removeClass('active');
-					$('#chat-home').removeClass('active');
-					
-					$('#chat-trade').removeClass('border-primary');
-					$('#chat-home').removeClass('border-primary');
-					
-					$('#chat-quest').removeClass('border-secondary');
-					
-					$('#chat-trade').addClass('border-secondary');
-					$('#chat-home').addClass('border-secondary');
-					
-					$(this).closest('#chat-quest').addClass('active');
-					$(this).closest('#chat-quest').addClass('border-primary');
-				});
-			});
-		</script>
-		<script src="js/folde.js"></script>
+		<script src="js/folde.js"></script> <!-- WINDOWS MINIMIZING -->
+		<script src="js/chat.js"></script> <!-- CHAT STYLING -->
 		<script src="js/ajaxlogin.js" type="text/javascript"></script> <!-- AJAX LOGIN -->
 		<script src="js/ajaxlogout.js" type="text/javascript"></script> <!-- AJAX LOGOUT -->
 		<script src="js/ajaxnewaccount.js" type="text/javascript"></script> <!-- AJAX NEWACC -->

@@ -20,9 +20,7 @@ foreach ($gamechatRow as $row)
 	$result = $result .
 	'
 	<tr class="tr-chat">
-		<td class="td-chat tr-chat-date" style="width: 20%">'.htmlspecialchars(date('d-m-y H:m:s', $row['write_date'])).'</td>
-		<td class="td-chat td-chat-name" style="width: 20%">'.htmlspecialchars(playerIdToName($row['player_id'])).': </td>
-		<td class="td-chat td-chat-text" style="width: 60%">"'.htmlspecialchars($row['text']).'"</td>
+		<td class="td-chat tr-chat-date" style="width: 100%">'.htmlspecialchars(date('d-m-y H:m:s', $row['write_date'])).' '.htmlspecialchars(playerIdToName($row['player_id'])).': '.htmlspecialchars($row['text']).'</td>
 	</tr>';
 
 	// $i++;
