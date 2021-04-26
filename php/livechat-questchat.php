@@ -7,7 +7,7 @@ session_start();
 require('../includes/functions.php');
 require('../includes/sql.php');
 
-$gamechatRow = getQuestchat();
+$gamechatRow = getChat("_questchat");
 
 $i = 1;
 $result = "";

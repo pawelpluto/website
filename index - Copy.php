@@ -26,8 +26,6 @@
 		<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">	
-		
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9823045768741214" crossorigin="anonymous"></script>
 	</head>
 	
 	<body style>
@@ -104,182 +102,33 @@
 						
 					</div>
 					
-					<!-- SHOP -->
+					
+					<!-- ROOKGAARD  -->
 					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 p-2 minimized" id="shop-minimized">
-							<i class="icon icon-folded icon-minimized" onclick="folde('shop')">
+					<div class="col col-info mb-3 p-2 minimized" id="rookgaard-minimized">
+							
+							<i class="icon icon-folded icon-minimized" onclick="folde('rookgaard')">
 							</i>
-							<h1 class="folded block-title mt-1 text-center">Shop</h1>
-					</div>
-					<!-- MAXIMIZED --->
-					<div class="col-12 col-box p-2 mb-3" id="shop-maximized">
-						<i class="icon icon-maximized" onclick="folde('shop')"></i>
-						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
-						<h1 class="h4 text-center p-0">Shop</h1>
-						</div>
-						
-						<div class="row m-auto my-3 col-10">
-							<div class="col-md-12 my-1 px-0 text-center">
-								<a href="#">
-								<figure class="m-0 p-0">
-								<img class="shop-logo" src="../img/shop/treasure.png">
-								</img>
-								<figcaption>CHECK THE OFFER!</figcaption>
-								</figure>
-								</a>
-							</div>
-						</div>
-						<!-- <hr class="d-none d-sm-block w-25 mx-auto mt-0"> -->
+							<h1 class="folded block-title mt-1 text-center">Rookgaard</h1>
 					</div>
 					
-					<!-- LIBRARY -->
-					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 p-2 minimized" id="library-minimized">
-							<i class="icon icon-folded icon-minimized" onclick="folde('library')">
-							</i>
-							<h1 class="folded block-title mt-1 text-center">Library</h1>
-					</div>
-					<!-- MAXIMIZED --->
-					<div class="col-12 col-box p-2 mb-3" id="library-maximized">
-						<i class="icon icon-maximized" onclick="folde('library')"></i>
+					<!-- MAXIMIZED -->
+					<div class="col col-box p-2 mb-3" id="rookgaard-maximized">
+						<i class="icon icon-maximized" onclick="folde('rookgaard')"></i>
 						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
-						<h1 class="h4 text-center p-0">Library</h1>
+						<h1 class="h4 text-center p-0">Rookgaard</h1>
 						</div>
-						
-						<div class="row p-2 text-center">
-							<div class="col col-4 col-md-12 col-xl-6 my-2">
-								<a href="#">
-									<div class="library-box p-2 mx-auto">
-										<figure class="m-0 p-0">
-										<img src="../img/library/info.png"></img>
-										<figcaption>Info</figcaption>
-										</figure>
-									</div>
-								</a>
+							<div class="p-2">
+								<div class="col col-12 my-0">
+									<h1 class="h5 block-title mt-2 mb-2 text-center">POWERGAMERS</h1>
+									<hr class="d-none d-sm-block w-50 mx-auto mt-0">
+								</div>
+								
+								<div class="col col-12 my-3">
+									<h1 class="h5 block-title mt-2 mb-2 text-center">BEST PLAYERS</h1>
+									<hr class="d-none d-sm-block w-50 mx-auto mt-0">
+								</div>
 							</div>
-							
-							<div class="col col-4 col-md-12 col-xl-6 my-2">
-								<a href="#">
-									<div class="library-box p-2 mx-auto">
-										<figure class="m-0 p-0">
-										<img src="../img/library/map.png"></img>
-										<figcaption>Map</figcaption>
-										</figure>
-									</div>
-								</a>
-							</div>
-							
-							<div class="col col-4 col-md-12 col-xl-6 my-2">
-								<a href="#">
-									<div class="library-box p-2 mx-auto">
-										<figure class="m-0 p-0">
-										<img src="../img/library/monsters.png"></img>
-										<figcaption>Monsters</figcaption>
-										</figure>
-									</div>
-								</a>
-							</div>
-							
-							<div class="col col-4 col-md-12 col-xl-6 my-2">
-								<a href="#">
-									<div class="library-box p-2 mx-auto">
-										<figure class="m-0 p-0">
-										<img src="../img/library/addons.png"></img>
-										<figcaption>Addons</figcaption>
-										</figure>
-									</div>
-								</a>
-							</div>
-							
-							<div class="col col-4 col-md-12 col-xl-6 my-2">
-								<a href="#">
-									<div class="library-box p-2 mx-auto">
-										<figure class="m-0 p-0">
-										<img src="../img/library/recipes.png"></img>
-										<figcaption>Recipes</figcaption>
-										</figure>
-									</div>
-								</a>
-							</div>
-							
-							<div class="col col-4 col-md-12 col-xl-6 my-2">
-								<a href="#">
-									<div class="library-box p-2 mx-auto">
-										<figure class="m-0 p-0">
-										<img src="../img/library/quests.png"></img>
-										<figcaption>Quests</figcaption>
-										</figure>
-									</div>
-								</a>
-							</div>
-						</div>
-						<!-- <hr class="d-none d-sm-block w-25 mx-auto mt-0"> -->
-					</div>
-					
-					<!-- LIBRARY -->
-					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 p-2 minimized" id="community-minimized">
-							<i class="icon icon-folded icon-minimized" onclick="folde('community')">
-							</i>
-							<h1 class="folded block-title mt-1 text-center">Community</h1>
-					</div>
-					<!-- MAXIMIZED --->
-					<div class="col-12 col-box p-2 mb-3" id="community-maximized">
-						<i class="icon icon-maximized" onclick="folde('community')"></i>
-						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
-						<h1 class="h4 text-center p-0">Community</h1>
-						</div>
-						
-						<div class="row p-2 text-center">
-							<div class="col col-10 subtitle m-auto p-1">
-								Players
-							</div>
-							<div class="col col-6 col-md-12 col-xl-6 my-2">
-								<a href="#">
-									<div class="library-box p-2 mx-auto">
-										<figure class="m-0 p-0">
-										<img src="../img/library/monsters.png"></img>
-										<figcaption>Online</figcaption>
-										</figure>
-									</div>
-								</a>
-							</div>
-							
-							<div class="col col-6 col-md-12 col-xl-6 my-2">
-								<a href="#">
-									<div class="library-box p-2 mx-auto">
-										<figure class="m-0 p-0">
-										<img src="../img/library/monsters.png"></img>
-										<figcaption>Search</figcaption>
-										</figure>
-									</div>
-								</a>
-							</div>
-							
-							<div class="col col-6 col-md-12 col-xl-6 my-2">
-								<a href="#">
-									<div class="library-box p-2 mx-auto">
-										<figure class="m-0 p-0">
-										<img src="../img/library/monsters.png"></img>
-										<figcaption>Banned</figcaption>
-										</figure>
-									</div>
-								</a>
-							</div>
-							
-							<div class="col col-6 col-md-12 col-xl-6 my-2">
-								<a href="#">
-									<div class="library-box p-2 mx-auto">
-										<figure class="m-0 p-0">
-										<img src="../img/library/monsters.png"></img>
-										<figcaption>Search</figcaption>
-										</figure>
-									</div>
-								</a>
-							</div>
-						</div>
-						
-						
 					</div>
 				</div>
 				
@@ -305,33 +154,18 @@
 						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
 						<h1 class="h4 text-center p-0">Live chat</h1>
 						</div>
-				
-						
-						<div class="row media mx-5 my-3 p-1">
-							<div class="media-img col col-5 col-md-12 col-lg-4 col-xl-3 text-center align-middle p-1">
-								<img src="../img/chat/media-search.png" class="m-0 p-0 media-photo" alt="...">
-							</div>
-							<div class="col col-7 col-md-12 col-lg-8 col-xl-9">
-							<div class="media-body m-2">
-								<h1 class="h3 mt-0 mb-2"><span>Browse the channels</span></h5>
-								<p>
-								Stay up to date. Check what's up ingame channels, even if you are offline.</p>
-							</div>
-							</div>
+						<div class="text-center my-3">
+						<img height=150 width=150 src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg" class="border border-primary"></img>
 						</div>
-						</row>
 						<div class="col col-10 live-chat offset-1 mb-3">
-						
 							<ul class="nav p-0 m-0">
-							
-								<li class="p-0 m-0 bg-gamechat-inactive" id="chat-home"><a style="margin: 0px;" data-toggle="tab" href="#home-inner"></a></li>
-								<li class="p-0 m-0" id="chat-trade"><a style="margin: 0px;" data-toggle="tab" href="#menu1"></a></li>
-								<li class="p-0 m-0" id="chat-quest"><a style="margin: 0px;" data-toggle="tab" href="#menu2"></a></li>
+								<li class="p-0 m-0 bg-gamechat-inactive" id="chat-home"><a class="test1" data-toggle="tab" href="#home-inner"></a></li>
+								<li class="p-0 m-0" id="chat-trade"><a data-toggle="tab" href="#menu1"></a></li>
+								<li class="p-0 m-0" id="chat-quest"><a data-toggle="tab" href="#menu2"></a></li>
 							</ul>
 						
-							<div class="tab-content tab-livechat px-1 py-2 ">
-							
-								<div id="home-inner" class="tab-pane fade show active overflow-auto p-1">
+							<div class="tab-content tab-livechat px-1 py-2">
+								<div id="home-inner" class="tab-pane fade show active">
 									<table class="table table-sm table-gamechat col-5 mx-0 p-0 my-0 no-spacing">
 									<tbody id="gamechat-inner">
 										
@@ -339,7 +173,7 @@
 									</table>
 								</div>
 							
-								<div id="menu1" class="tab-pane fade overflow-auto p-1">
+								<div id="menu1" class="tab-pane fade">
 									<table class="table table-sm table-gamechat col-5 mx-0 p-0 my-0">
 									<tbody id="tradechat-inner">
 										
@@ -347,7 +181,7 @@
 									</table>
 								</div>
 							
-								<div id="menu2" class="tab-pane fade overflow-auto p-1">
+								<div id="menu2" class="tab-pane fade">
 									<table class="table table-sm table-questchat col-5 mx-0 p-0 my-0">
 									<tbody id="questchat-inner">
 										
@@ -617,47 +451,9 @@
 						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
 						<h1 class="h4 text-center p-0">Social</h1>
 						</div>
-						
-						<div class="row m-auto my-3 col-10">
-							<div class="col-md-12 my-1 px-0">
-								<a href="#">
-								<img class="social-otland" src="../img/social/otland-logo.png">
-								</img>
-								</a>
-							</div>
-							
-							<div class="col-md-12 my-1 px-0">
-								<a href="#">
-								<img class="social-otland" src="../img/social/discord-logo.png">
-								</img></a>
-							</div>
-							
-							<div class="col-md-12 my-1 px-0">
-								<a href="#">
-								<img class="social-facebook" src="../img/social/facebook-logo.png">
-								</img></a>
-							</div>	
-						</div>
 						<!-- <hr class="d-none d-sm-block w-25 mx-auto mt-0"> -->
 					</div>
 					
-					<!-- EVENT -->
-					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 p-2 minimized" id="event-minimized">
-							<i class="icon icon-folded icon-minimized" onclick="folde('event')">
-							</i>
-							<h1 class="folded block-title mt-1 text-center">Events</h1>
-					</div>
-					<!-- MAXIMIZED -->
-					<div class="col-12 col-box mb-3 	p-2" id="event-maximized">
-						<i class="icon icon-maximized" onclick="folde('event')"></i>
-						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
-						<h1 class="h4 text-center p-0">Events</h1>
-						</div>
-					</div>
-					
-					
-					<!-- MAINLAND -->
 					<!-- MINIMIZED -->
 					<div class="col col-info mb-3 p-2 minimized" id="mainland-minimized">
 							<i class="icon icon-folded icon-minimized" onclick="folde('mainland')">
@@ -665,39 +461,11 @@
 							<h1 class="folded block-title mt-1 text-center">Mainland</h1>
 					</div>
 					<!-- MAXIMIZED -->
-					<div class="col-12 col-box mb-3 p-2" id="mainland-maximized">
+					<div class="col-12 col-box p-2" id="mainland-maximized">
 						<i class="icon icon-maximized" onclick="folde('mainland')"></i>
 						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
 						<h1 class="h4 text-center p-0">Mainland</h1>
 						</div>
-					</div>
-					
-					<!-- ROOKGAARD  -->
-					<!-- MINIMIZED -->
-					<div class="col col-info mb-3 p-2 minimized" id="rookgaard-minimized">
-							
-							<i class="icon icon-folded icon-minimized" onclick="folde('rookgaard')">
-							</i>
-							<h1 class="folded block-title mt-1 text-center">Rookgaard</h1>
-					</div>
-					
-					<!-- MAXIMIZED -->
-					<div class="col col-box p-2 mb-3" id="rookgaard-maximized">
-						<i class="icon icon-maximized" onclick="folde('rookgaard')"></i>
-						<div class="col col-10 col-md-8 col-lg-10 block-title text-center mx-auto p-0">
-						<h1 class="h4 text-center p-0">Rookgaard</h1>
-						</div>
-							<div class="p-2">
-								<div class="col col-12 my-0">
-									<h1 class="h5 block-title mt-2 mb-2 text-center">POWERGAMERS</h1>
-									<hr class="d-none d-sm-block w-50 mx-auto mt-0">
-								</div>
-								
-								<div class="col col-12 my-3">
-									<h1 class="h5 block-title mt-2 mb-2 text-center">BEST PLAYERS</h1>
-									<hr class="d-none d-sm-block w-50 mx-auto mt-0">
-								</div>
-							</div>
 					</div>
 				</div>
 			

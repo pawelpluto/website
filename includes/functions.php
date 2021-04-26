@@ -124,14 +124,15 @@
 		}
 	}
 	
-	function getGamechat() {
+	function getChat($name){
 		require 'sql.php';
+		require 'variables.php';
 		$connection = new mysqli($dbServername, $dbUsername, $dbPassword, $dbName);
 		
 		if ($connection->connect_errno!=0)
 		echo "Error: ".$connection->connect_errno;
 		
-		$request = "SELECT * FROM _gamechat ORDER BY id DESC LIMIT 10;";
+		$request = "SELECT * FROM ".$name." ORDER BY id DESC LIMIT ".$chatLimit.";";
 		
 		if ($result = @$connection->query($request))
 		{
@@ -141,47 +142,6 @@
 				return $all;
 			}
 		}
-							
-	}
-	
-	function getTradechat() {
-		require 'sql.php';
-		$connection = new mysqli($dbServername, $dbUsername, $dbPassword, $dbName);
-		
-		if ($connection->connect_errno!=0)
-		echo "Error: ".$connection->connect_errno;
-		
-		$request = "SELECT * FROM _tradechat ORDER BY id DESC LIMIT 10;";
-		
-		if ($result = @$connection->query($request))
-		{
-			if ($result->num_rows > 0)
-			{
-				$all = $result->fetch_all(MYSQLI_ASSOC);
-				return $all;
-			}
-		}
-							
-	}
-	
-	function getQuestchat() {
-		require 'sql.php';
-		$connection = new mysqli($dbServername, $dbUsername, $dbPassword, $dbName);
-		
-		if ($connection->connect_errno!=0)
-		echo "Error: ".$connection->connect_errno;
-		
-		$request = "SELECT * FROM _questchat ORDER BY id DESC LIMIT 10;";
-		
-		if ($result = @$connection->query($request))
-		{
-			if ($result->num_rows > 0)
-			{
-				$all = $result->fetch_all(MYSQLI_ASSOC);
-				return $all;
-			}
-		}
-							
 	}
 	
 	function getNameFromRow($row) {

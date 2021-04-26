@@ -395,10 +395,7 @@ i a{
 	font-weight: 500;
 	text-align: left;
 }	
-.table-gamechat{
-	/* border: 1px solid green; */
-	
-}
+
 
 .mid{
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg");
@@ -510,10 +507,74 @@ ul.nav li a{
 	background: url("../img/chat/bg-57.png");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	/* height: 100px; */
 }
 
-li{
+#home-inner, #menu1, #menu2{
+	height: 233px;
+}
+
+.media{
+	background-color: #EFEF00;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+.media-img{
 	/* border: 1px solid red; */
+	text-align: center;
+}
+
+.media-photo{
+	/* border: 1px solid blue; */
+	width: 100%;
+	/* height: 100%; */
+}
+
+
+.media h1 span{
+	background-color: orange;
+}
+
+.media .media-body p{
+	/* border: 1px solid blue; */
+	background-color: yellow;
+}
+
+
+.social-otland, .social-discord, .social-facebook{
+	height: 70px;
+	width: 100%;
+}
+
+.shop-logo{
+	width: 75%;
+}
+
+.library-box{
+	background-color: yellow;
+	border: 1px solid #484848;
+	height: 100px;
+	width: 100px;
+}
+
+.library-box img{
+	width: 70%;
+	height: 62px;
+	width: 62px;
+}
+
+.subtitle{
+	border: 1px solid green;
+	background-color: orange;
+	font-weight: 600;
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+	
+	.media-body h1{
+		text-align: center;
+	}
 }
 /* Extra small devices (portrait phones, less than 576px) */
 /* @media (max-width: 576px) */

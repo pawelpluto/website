@@ -7,7 +7,7 @@ session_start();
 require('../includes/functions.php');
 require('../includes/sql.php');
 
-$gamechatRow = getTradechat();
+$gamechatRow = getChat("_tradechat");
 
 $i = 1;
 $result = "";

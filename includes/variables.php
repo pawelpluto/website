@@ -1,0 +1,4 @@
+<?PHP
+	$chatLimit = 50;
+
+?>
