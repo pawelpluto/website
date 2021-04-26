@@ -1,5 +1,10 @@
+@font-face {
+  font-family: mainFont;
+  src: url("../css/fonts/docomic.ttf");
+}
+
 body{
-	font-family: 'Ubuntu', serif;
+	/* font-family: 'Ubuntu', serif; */
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -7,6 +12,8 @@ body{
 	
 	-moz-background-size:  cover;
 	-o-background-size: cover;
+	
+	font-family: mainFont;
 }
 
 .col-title{
@@ -16,12 +23,12 @@ body{
 .h4{
 	background-color: rgba(0, 0, 0, 0.15);
 	font-size: 20px;
-	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Montserrat', sans-serif; */
 	font-weight: 600;
 }
 
 .h1{
-	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Montserrat', sans-serif; */
 }
 
 .block-news{
@@ -551,7 +558,7 @@ ul.nav li a{
 	width: 75%;
 }
 
-.library-box{
+.library-box, .community-box{
 	background-color: yellow;
 	border: 1px solid #484848;
 	height: 100px;
@@ -562,6 +569,12 @@ ul.nav li a{
 	width: 70%;
 	height: 62px;
 	width: 62px;
+}
+
+.community-box img{
+	/* width: 70%; */
+	height: 62px;
+	width: 82px;
 }
 
 .subtitle{
