@@ -146,7 +146,7 @@
 						<h1 class="h4 text-center p-0">Library</h1>
 						</div>
 						
-						<div class="row p-2 text-center">
+						<div class="row p-4 p-md-3 p-xxl-4 text-center">
 							<div class="col col-4 col-md-12 col-xl-6 my-2">
 								<a href="#">
 									<div class="library-box p-2 mx-auto">
@@ -230,15 +230,15 @@
 						<h1 class="h4 text-center p-0">Community</h1>
 						</div>
 						
-						<div class="row p-2 text-center">
+						<div class="row p-4 p-md-3 p-xxl-4 text-center">
 							<div class="col col-10 subtitle m-auto p-1">
 								Players
 							</div>
 							<div class="col col-6 col-md-12 col-xl-6 my-2">
 								<a href="#">
-									<div class="library-box p-2 mx-auto">
+									<div class="community-box p-2 mx-auto">
 										<figure class="m-0 p-0">
-										<img src="../img/library/monsters.png"></img>
+										<img src="../img/community/online.png"></img>
 										<figcaption>Online</figcaption>
 										</figure>
 									</div>
